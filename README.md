@@ -7,8 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Endpoint
-- Get All Province [http://127.0.0.1:8000/api/province].
+## Endpoint Province
+- Get All [http://127.0.0.1:8000/api/province] - GET.
+- Get By ID [http://127.0.0.1:8000/api/province/{id}] - GET.
+- Create [http://127.0.0.1:8000/api/province] - POST.
+- Update By ID [http://127.0.0.1:8000/api/province/{id}?_method=PUT] - POST.
+- Delete By ID [http://127.0.0.1:8000/api/province/{id}] - DELETE.
+- Search By Value [http://127.0.0.1:8000/api/province/search{value}] - GET.
 
 ## About Laravel
 
