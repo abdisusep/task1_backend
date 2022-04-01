@@ -13,7 +13,7 @@
 - Create [http://127.0.0.1:8000/api/province] - POST.
 - Update By ID [http://127.0.0.1:8000/api/province/{id}?_method=PUT] - POST.
 - Delete By ID [http://127.0.0.1:8000/api/province/{id}] - DELETE.
-- Search By Value [http://127.0.0.1:8000/api/province/search{value}] - GET.
+- Search By Value [http://127.0.0.1:8000/api/province/search/{value}] - GET.
 
 ## About Laravel
 
